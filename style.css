@@ -1,0 +1,55 @@
+/* fontt */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,400;0,500;0,700;1,600&display=swap");
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #161616;
+}
+#projects {
+  background-color: #161616;
+}
+#ContactMe {
+  background-color: #161616;
+}
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+#Skill .bar {
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 5px 0 20px 0;
+}
+.bar .nilai {
+  height: 30px;
+  text-align: center;
+  background-color: #f84744;
+  display: inline-block;
+  color: #fff;
+}
+.ml {
+  width: 80%;
+}
+.css {
+  width: 65%;
+}
+.bt {
+  width: 45%;
+}
+.js {
+  width: 10%;
+}
+.btn {
+  background-color: #f84744;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
